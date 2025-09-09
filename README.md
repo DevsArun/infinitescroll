@@ -53,7 +53,7 @@ Decide how close to the bottom the scroll should be before loading more results.
 Example: 1000px means new results will load when you are 1000px away from the bottom.
 
 ## 🚀 Buy This Extension
-This extension is available for just **$50**.  
+This extension is available for just **$1**.  
 
 👉 [Click here to purchase](https://devsarun.github.io/infinitescroll/)
 
