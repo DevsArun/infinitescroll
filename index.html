@@ -138,13 +138,21 @@
 
   <!-- Demo Section -->
   <section id="demo" class="py-20 px-6 bg-white relative z-10">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Demo</h2>
-      <p class="mt-4 text-gray-600 text-lg">See the extension in action:</p>
-      <div class="mt-8 aspect-w-16 aspect-h-9">
-       <iframe  src="https://www.youtube.com/embed/V5Y1Hi45KNY?si=jTCMeWxmIeQwVzn_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-    </div>
+   <!-- Responsive YouTube Video -->
+<div class="w-full max-w-4xl mx-auto">
+  <div class="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-2xl shadow-lg">
+    <iframe 
+      class="absolute top-0 left-0 w-full h-full"
+      src="https://www.youtube.com/embed/V5Y1Hi45KNY?si=jTCMeWxmIeQwVzn_" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
   </section>
 
   
